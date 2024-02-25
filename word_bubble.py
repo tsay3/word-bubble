@@ -9,7 +9,7 @@ with open("freq", 'r') as file:
 # print("Loading dictionary...")
 words = []
 num_words = 0
-with open("American/2of12inf.txt", 'r') as file:
+with open("2of12inf.txt", 'r') as file:
     for line in file:
         if line[-2] != '%':
             words.append(line.rstrip())
